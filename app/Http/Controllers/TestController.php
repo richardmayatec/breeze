@@ -13,7 +13,7 @@ class TestController extends Controller
      */
     public function index()
     {
-        return 'Test Controller';
+        return view('users.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class TestController extends Controller
      */
     public function create()
     {
-        //
+        return view('users.create');
     }
 
     /**
